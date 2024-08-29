@@ -7,6 +7,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f1f1f1;
+    position: relative;
 }
 
 .container {
@@ -22,7 +23,11 @@ header {
     background-color: #1f1f1f;
     color: white;
     width: 100%;
-    padding: 20px 0;
+    padding: 100px 0;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    z-index: 0;
     text-align: center;
 }
 
@@ -37,6 +42,10 @@ header p {
 }
 
 main {
+    position: absolute;
+    top: 35%;
+    transform: translateY(-35%);
+    z-index: 1;
     background-color: white;
     padding: 40px;
     border-radius: 8px;
