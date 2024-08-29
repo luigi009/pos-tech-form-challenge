@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>POSTECH - FULLSTACK</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
     <div class="container">
-        <header>
-            <h1>POSTECH - FULLSTACK</h1>
-            <p>Desafio aula inaugural</p>
-        </header>
-        <main>
-            <form>
-                <h2>Informações do grupo</h2>
-                <input type="text" placeholder="Nome">
-                <input type="text" placeholder="Nome">
-                <input type="text" placeholder="Nome">
-                <input type="text" placeholder="Nome">
-                <textarea placeholder="Histórico do grupo"></textarea>
-                <button type="submit">Enviar</button>
-            </form>
-        </main>
+      <header>
+        <h1>POSTECH - FULLSTACK</h1>
+        <p>Desafio aula inaugural</p>
+      </header>
+      <main>
+        <form>
+          <h2>Informações do grupo</h2>
+          <input id="nome1" type="text" placeholder="Nome" />
+          <input id="nome2" type="text" placeholder="Nome" />
+          <input id="nome3" type="text" placeholder="Nome" />
+          <input id="nome4" type="text" placeholder="Nome" />
+          <textarea placeholder="Histórico do grupo"></textarea>
+          <button type="submit" onclick="enviarFormulario()">Enviar</button>
+        </form>
+      </main>
     </div>
-</body>
+  </body>
 </html>
